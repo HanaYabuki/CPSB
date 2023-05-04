@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="mid">
+    <div class="container">
         <div id="logo">
             <img src="./logo.jpg" alt="">
         </div>
@@ -28,11 +28,27 @@
         </div>
         <div>
             <h2>梗图区</h2>
+            <div id="meme" class="mid">
+                <img id="meme-img" src="" alt="加载中……">
+            </div>
+            <div class="mid">
+                <button onclick="random_image()">换一张</button>
+            </div>
         </div>
+        <hr>
         <div>
-            <p>本站由众多被CP29官方行为坑害的无辜善良二次元同好们共同建立维护。</p>
+            <p>
+                本站由众多被CP29官方行为坑害的无辜纯良二次元同好们共同建立维护。
+            </p>
+            <p>
+                <span id="busuanzi_container_site_uv">
+                    本站访客数<span id="busuanzi_value_site_uv"></span>人次
+                </span>
+            </p>
         </div>
     </div>
+    <script src="js/index.js"></script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 </body>
 
